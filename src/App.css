@@ -1,0 +1,31 @@
+.card {
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Стили для горизонтальной карточки */
+.img-fluid.rounded-start {
+  object-fit: cover;
+  height: 100%;
+}
+
+/* Стили для группы карточек */
+.card-group .card {
+  margin-bottom: 0;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .card-group {
+    flex-direction: column;
+  }
+}
