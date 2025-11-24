@@ -3,9 +3,9 @@ import Card from './components/Card';
 import './App.css';
 
 // Используем абсолютные пути к изображениям из public папки
-const cardImage1 = "/images/card1.jpg";
-const cardImage2 = "/images/card2.jpg";
-const cardImage3 = "/images/card3.jpg";
+const cardImage1 = "images/card1.jpg";
+const cardImage2 = "images/card2.jpg";
+const cardImage3 = "images/card3.jpg";
 
 const App: React.FC = () => {
   return (
